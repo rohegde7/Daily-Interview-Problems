@@ -16,6 +16,10 @@ Pair found (34, 10)
 Difficulty: Easy
 '''
 
+'''Better solution https://www.prodevelopertutorial.com/given-an-unsorted-array-and-a-key-find-2-elements-such-that-the-difference-between-the-elements-is-equal-to-the-key/ '''
+
+#My solution:
+
 list_numbers = list(map(int, input().split()))
 #print(list_numbers)
 key = int(input())
@@ -45,6 +49,7 @@ for i in range(len(list_numbers)-1):
 if flag == False:
     print("Not found")
         
+
         
     
 
